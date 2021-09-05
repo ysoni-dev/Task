@@ -1,0 +1,54 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(latine.ttf);
+  font-weight: bold;
+}
+
+
+.image2{
+	display: none;
+}
+
+#header2{
+	margin-top: 5rem;
+}
+@media screen and (max-width:980px){
+  .image2{
+  	display: block;
+  	float: right;
+    height: 800px;
+    width: 600px;
+    margin-top: 10rem;
+  }
+.image{
+	display: none;
+}
+.sec1{
+	margin-top: 10rem;
+	font-size: 50%;
+}
+.curve{
+	height: 100vh;
+}
+.thirdsec{
+	min-height: 50%;
+}
+
+
+}
+/*@media screen and (max-width:700px){
+  .image{
+  	float: right;
+    height: 200px;
+    width: 400px;
+  }
+}
+@media screen and (max-width:400px){
+  .image{
+  	float: right;
+    height: 200px;
+    width: 300px;
+  }
+}
+
+*/
